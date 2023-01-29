@@ -13,8 +13,8 @@
 // | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   UP  |  SHIFT |
 // | LCTRL | LGUI | LALT | ---  | ---- |     SPACE    |  ---- | ---- | LFT | DN  |  RT |
       bindings = <
-  &kp ESC      &kp Q    &kp W    &kp E &kp R  &kp T   &kp Y  &kp U    &kp I    &kp O    &kp P   &kp BKSP &kp C_MUTE 
-  &mt CAPS TAB &kp A    &kp S    &kp D &kp F  &kp G   &kp H  &kp J    &kp K    &kp L    &kp SQT &kp RET
+  &kp ESC      &kp Q    &kp W    &kp E &kp R  &kp T   &kp Y  &kp U    &kp I    &kp O    &kp P   &kp BKSP 
+  &mt TAB &kp A    &kp S    &kp D &kp F  &kp G   &kp H  &kp J    &kp K    &kp L    &kp SQT &kp RET
   &lt 1 LSHFT  &kp Z    &kp X    &kp C &kp V  &kp B   &kp N  &kp M    &kp COMMA &kp DOT  &kp UP  &kp RSHIFT
   &kp LCTRL    &kp LALT &none &kp LGUI &kp SPACE   &lt 1 SPACE  &mo 2  &kp LEFT &kp DOWN &kp RIGHT
       >;
