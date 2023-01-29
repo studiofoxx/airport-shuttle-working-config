@@ -16,7 +16,7 @@
   &kp ESC      &kp Q    &kp W    &kp E &kp R  &kp T   &kp Y  &kp U    &kp I    &kp O    &kp P   &kp BKSP
   &mt CAPS TAB &kp A    &kp S    &kp D &kp F  &kp G   &kp H  &kp J    &kp K    &kp L    &kp SQT &kp RET
   &lt 1 LSHFT  &kp Z    &kp X    &kp C &kp V  &kp B   &kp N  &kp M    &kp COMMA &kp DOT  &kp UP  &kp RSHIFT
-  &kp LCTRL    &kp LALT &kp LGUI &kp SPACE   &lt 1 SPACE  &mo 2  &kp LEFT &kp DOWN &kp RIGHT
+  &kp LCTRL    &kp LALT &none &kp LGUI &kp SPACE   &lt 1 SPACE  &mo 2  &kp LEFT &kp DOWN &kp RIGHT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
@@ -31,7 +31,7 @@
       &kp N1   &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &kp MINUS &kp EQUAL 
       &kp CAPS &none  &none  &none  &none  &none  &kp GRAVE &kp LBKT  &kp RBKT &kp BSLH &kp SEMI  &trans
       &trans   &none  &none  &none  &none  &none  &none     &none     &none    &none    &kp SLASH &trans
-      &trans   &trans &none  &trans &trans &trans    &trans    &trans  &trans
+      &trans   &trans &none &trans &trans &trans &trans    &trans    &trans  &trans
       >;
     };
 
