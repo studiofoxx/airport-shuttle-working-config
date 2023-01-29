@@ -13,7 +13,7 @@
 // | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   UP  |  SHIFT |
 // | LCTRL | LGUI | LALT | ---  | ---- |     SPACE    |  ---- | ---- | LFT | DN  |  RT |
       bindings = <
-  &kp ESC      &kp Q    &kp W    &kp E &kp R  &kp T   &kp Y  &kp U    &kp I    &kp O    &kp P   &kp BKSP
+  &kp ESC      &kp Q    &kp W    &kp E &kp R  &kp T   &kp Y  &kp U    &kp I    &kp O    &kp P   &kp BKSP &kp BKSP &kp C_MUTE 
   &mt CAPS TAB &kp A    &kp S    &kp D &kp F  &kp G   &kp H  &kp J    &kp K    &kp L    &kp SQT &kp RET
   &lt 1 LSHFT  &kp Z    &kp X    &kp C &kp V  &kp B   &kp N  &kp M    &kp COMMA &kp DOT  &kp UP  &kp RSHIFT
   &kp LCTRL    &kp LALT &none &kp LGUI &kp SPACE   &lt 1 SPACE  &mo 2  &kp LEFT &kp DOWN &kp RIGHT
@@ -39,7 +39,7 @@
       bindings = <
       &kp F1 &kp F2        &kp F3        &kp F4        &kp F5        &kp F6        &kp F7     &kp F8       &kp F9 &kp F10 &kp F11 &kp F12
       &trans &bt BT_SEL 0  &bt BT_SEL 01 &bt BT_SEL 02 &bt BT_SEL 03 &bt BT_SEL 04 &none      &none        &none  &none   &none   &bt BT_CLR
-      &trans &none         &none &none   &none         &none         &none         &none      &none        &trans &kp C_VOL_UP &trans
+      &trans &none         &none &none   &none         &none         &none         &none      &none        &trans &kp C_VOL_UP &kp C_PP
       &trans       &trans &none  &trans        &trans        &trans        &kp C_PREV &kp C_VOL_DN &kp C_NEXT
       >;
     };
