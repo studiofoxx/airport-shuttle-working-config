@@ -5,9 +5,8 @@ if BOARD_AIRPORT_SHUTTLE
 
 config BOARD
 	default "airport_shuttle"
-
-config ZMK_KEYBOARD_NAME
-	default "Synthwave Shuttle"
+	
+CONFIG_ZMK_KEYBOARD_NAME="Device name"
 	
 if USB
 
