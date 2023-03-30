@@ -7,7 +7,7 @@ config BOARD
 	default "airport_shuttle"
 
 config ZMK_KEYBOARD_NAME
-	default "Airport Shuttle"
+	default "Synthwave Shuttle"
 	
 if USB
 
