@@ -18,7 +18,7 @@
   &kp LSHFT  &kp Z    &kp X    &kp C &kp V  &kp B   &kp N  &kp M    &kp COMMA &kp DOT  &kp UP  &mo 2
   &kp LCTRL  &kp LALT &kp LGUI &none &none &lt 1 SPACE &none &kp LEFT &kp DOWN &kp RIGHT
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
 
     raise_layer {
