@@ -6,8 +6,6 @@ if BOARD_AIRPORT_SHUTTLE
 config BOARD
 	default "airport_shuttle"
 
-CONFIG_PINCTRL=y
-
 config ZMK_KEYBOARD_NAME
 	default "Airport Shuttle"
 if USB
