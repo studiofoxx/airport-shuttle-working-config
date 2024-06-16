@@ -14,12 +14,12 @@
 // | ESC |  Q  |  W  |  E  |  R  |  T  |  Y |  U  |  I  |  O  |  P  |   BKSP  |
 // | TAB  |  A  |  S  |  D  |  F  |  G  |  H  |  J |  K  |  L  |  '  | RETURN |
 // | SHIFT  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | U P | L 2 |
-// |CNTRL | WIN | ALT  |N/A|N/A|       SPACE/L1       |EMPTY|LEFT |DOWN |RIGHT|
+// |CNTRL | WIN | ALT  |N/A|SPACE|      SPACE/L1      | ESC |LEFT |DOWN |RIGHT|
       bindings = <
   &kp ESC      &kp Q    &kp W    &kp E &kp R  &kp T   &kp Y  &kp U    &kp I    &kp O    &kp P   &kp BKSP 
   &kp TAB &kp A    &kp S    &kp D &kp F  &kp G   &kp H  &kp J    &kp K    &kp L    &kp SQT &kp RET
-  &kp LSHFT  &kp Z    &kp X    &kp C &kp V  &kp B   &kp N  &kp M    &kp COMMA &kp DOT  &kp UP  &mo 2
-  &kp LCTRL  &kp LALT &kp LGUI &none &none &lt 1 SPACE &none &kp LEFT &kp DOWN &kp RIGHT
+  &kp LSHFT  &kp Z    &kp X    &kp C &kp V  &kp B   &kp N  &kp M    &kp COMMA &kp DOT  &kp UP  &kp BSLH
+  &kp LCTRL  &kp LALT &kp LGUI &mo 2 &kp SPACE &lt 1 SPACE &kp ESC &kp LEFT &kp DOWN &kp RIGHT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
