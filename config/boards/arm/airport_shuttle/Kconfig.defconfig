@@ -1,7 +1,7 @@
 # Copyright (c) 2020 Taylor Glaeser
 # SPDX-License-Identifier: MIT
 
-if BOARD_AIRPORT_SHUTTLE
+if BOARD_AIRPORT_SHUTTLE || BOARD_RAYTAC_MDBT50Q_RX
 
 config BOARD
 	default "airport_shuttle"
@@ -27,4 +27,23 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
-endif # BOARD_AIRPORT_SHUTTLE
+endif
+
+if SHIELD_AIRPORT_SHUTTLE_DONGLE
+
+config BT_MAX_PAIRED
+    default 7
+
+config BT_MAX_CONN
+    default 7
+
+config ZMK_SPLIT_BLE_PREF_INT
+    default 6
+
+config ZMK_SPLIT_BLE_PREF_LATENCY
+    default 399
+
+config ZMK_SPLIT_BLE_PREF_TIMEOUT
+    default 900
+
+endif
