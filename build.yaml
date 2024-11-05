@@ -1,6 +1,5 @@
 # GitHub Actions matrix
 ---
 include:
- - board: airport_shuttle
  - board: raytac_mdbt50q_rx
      shield: airport_shuttle_dongle
