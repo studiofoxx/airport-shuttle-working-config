@@ -8,6 +8,7 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "airport_shuttle-pinctrl.dtsi"
 
 / {
 	model = "AirportShuttle";
@@ -107,18 +108,18 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)   							RC(3,7) RC(3,8) RC(3,9) RC(3,10
 
 &i2c0 {
 	compatible = "nordic,nrf-twi";
-	sda-pin = <17>;
-	scl-pin = <20>;
+	pinctrl-0 = <&i2c0_default>;
+	pinctrl-1 = <&i2c0_sleep>;
+	pinctrl-names = "default", "sleep";
 };
 
 &uart0 {
 	compatible = "nordic,nrf-uarte";
 	status = "okay";
 	current-speed = <115200>;
-	tx-pin = <39>;
-	rx-pin = <34>;
-	rts-pin = <33>;
-	cts-pin = <12>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-1 = <&uart0_sleep>;
+	pinctrl-names = "default", "sleep";
 };
 
 &usbd {
