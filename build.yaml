@@ -2,3 +2,5 @@
 ---
 board:
   - airport_shuttle
+snippet: studio-rpc-usb-uart
+cmake-args: -DCONFIG_ZMK_STUDIO=y
