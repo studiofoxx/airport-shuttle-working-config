@@ -12,14 +12,14 @@
     default_layer {
 // ----------------------------------------------------------------------------
 // | ESC |  Q  |  W  |  E  |  R  |  T  |  Y |  U  |  I  |  O  |  P  |   BKSP  |
-// | TAB  |  A  |  S  |  D  |  F  |  G  |  H  |  J |  K  |  L  |  '  | RETURN |
+// | TAB  |  A  |  S  |  D  |  F  |  G  |  H  |  J |  K  |  L  |  '   | ENTER |
 // | SHIFT  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | U P | L 2 |
 // |CNTRL | WIN | ALT  |N/A|SPACE|      SPACE/L1      | ESC |LEFT |DOWN |RIGHT|
       bindings = <
   &kp ESC      &kp Q    &kp W    &kp E &kp R  &kp T   &kp Y  &kp U    &kp I    &kp O    &kp P   &kp BKSP
-  &kp TAB &kp A    &kp S    &kp D &kp F  &kp G   &kp H  &kp J    &kp K    &kp L    &kp SQT &kp N2
+  &kp TAB &kp A    &kp S    &kp D &kp F  &kp G   &kp H  &kp J    &kp K    &kp L    &kp SQT &kp ENTER
   &kp LSHFT  &kp Z    &kp X    &kp C &kp V  &kp B   &kp N  &kp M    &kp COMMA &kp DOT  &kp UP  &mo 2
-  &kp LCTRL  &kp LALT &none &lt 1 LGUI &kp SPACE &kp SPACE &kp RET &kp LEFT &kp DOWN &kp RIGHT
+  &kp LCTRL  &kp LALT &none &lt 1 LGUI &kp SPACE &kp SPACE &kp ENTER &kp LEFT &kp DOWN &kp RIGHT
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
